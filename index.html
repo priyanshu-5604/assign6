@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE with JS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body bgcolor="lightblue ">
+    <div align="center" class="container">
+        <marquee><h1>^_^ Let's Play A MiNi NuMber MaNia. *_*</h1></marquee>
+        <h2>Guess the number:- </h2>
+        <button class="btn" onclick="func()" id="num">___GUESS___</button>
+    </div>
+    <script>
+        function func() {
+            inp = prompt("Enter the number");
+            document.write("Your number is: ", inp, "<br>");
+            if (inp >= 1 && inp <= 100) {
+                var x = 1;
+                for (var i = 1; i <= 5; i++) {
+                    var guess = Math.floor(Math.random() * 100) + 1;
+                    var str = ("Computer guess: " + guess + "\n");
+                    document.write(str, "<br>");
+                    if (inp == guess) {
+                        x = 0;
+                        document.write("Computer Wins");
+                        break;
+                    }
+                }
+                if (x) {
+                    document.write('<p id="jstext"' + "you win" + '</p>');
+                }
+            }
+            else {
+                prompt("enter number between 1 and 100");
+            }
+        }
+    </script>
+    <fieldset> <h3>RULES:-</h3>
+            <div id="para1">
+                <p>Step 1:- You have to click on play button</p>
+            </div>
+        <div id="para2">
+            <p>Step 2:- Enter any number from 1 to 100.</p>
+        </div>
+        <div id="para3">
+            <p>Step 3:- Press Enter key.</p>
+        </div>
+        <div id="para4">
+            <p>Step 4:- let's see whether YOU or Computer wins.</p>
+        </div>
+    </fieldset>
+</body>
+</html>

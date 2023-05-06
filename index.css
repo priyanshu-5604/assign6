@@ -1,0 +1,62 @@
+.container{
+    border: 5px solid red;
+    margin: 15px;
+    padding: 20px;
+    background-color: black;
+    color: azure;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#para1{
+    background-color:magenta;
+    color: white;
+    border: 5px solid;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+} 
+#para2{
+    background-color: blue;
+    color: white;
+    border: 5px solid;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+} 
+#para3{
+    background-color: limegreen;
+    color: white;
+    border: 5px solid;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+} 
+#para4{
+    background-color: yellow;
+    color: blue;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+} 
+.btn{
+    border: 3px ridge blue;
+    font-size: large;
+    background-color: orange;
+}
